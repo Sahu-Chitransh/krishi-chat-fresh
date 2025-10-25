@@ -19,7 +19,7 @@ const ChatInput = ({ onSendMessage }: ChatInputProps) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-card border-t border-border shadow-md">
+    <form onSubmit={handleSubmit} className="bg-card/80 backdrop-blur-md border-t border-border shadow-md">
       <div className="max-w-4xl mx-auto px-4 py-4">
         <div className="flex gap-2 items-center">
           <Input
@@ -27,12 +27,12 @@ const ChatInput = ({ onSendMessage }: ChatInputProps) => {
             placeholder="Ask about farming, crops, weather..."
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className="flex-1 bg-background border-input focus-visible:ring-primary rounded-full px-5"
+            className="flex-1 bg-background/90 border-input focus-visible:ring-primary rounded-full px-5 shadow-sm"
           />
           <Button 
             type="submit" 
             size="icon"
-            className="rounded-full w-10 h-10 bg-primary hover:bg-primary/90"
+            className="rounded-full w-10 h-10 bg-primary hover:bg-primary/90 shadow-md"
             disabled={!message.trim()}
           >
             <Send className="w-4 h-4" />
