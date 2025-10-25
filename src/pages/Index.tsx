@@ -55,7 +55,7 @@ const Index = () => {
           backgroundRepeat: 'no-repeat',
         }}
       >
-        <div className="absolute inset-0 backdrop-blur-sm bg-background/60" />
+        <div className="absolute inset-0 backdrop-blur-[2px] bg-background/40" />
       </div>
 
       {/* Content */}
