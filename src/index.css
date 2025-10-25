@@ -38,10 +38,10 @@ All colors MUST be HSL.
 
     --radius: 1rem;
 
-    --chat-user: 142 76% 36%;
-    --chat-user-foreground: 0 0% 100%;
-    --chat-bot: 0 0% 96%;
-    --chat-bot-foreground: 0 0% 15%;
+    --chat-user: 25 95% 85%;
+    --chat-user-foreground: 0 0% 20%;
+    --chat-bot: 142 55% 85%;
+    --chat-bot-foreground: 0 0% 20%;
     
     --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.05);
     --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.1);
