@@ -19,7 +19,7 @@ const ChatInput = ({ onSendMessage }: ChatInputProps) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="border-t border-border bg-background">
+    <form onSubmit={handleSubmit} className="border-t border-border bg-card/80 backdrop-blur-md">
       <div className="max-w-3xl mx-auto px-4 py-4">
         <div className="flex gap-3 items-center">
           <Input
